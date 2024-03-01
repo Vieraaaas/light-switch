@@ -44,4 +44,5 @@ html {
   border: 0.25rem solid var(--light-color);
   color: var(--light-color);
   background-color: var(--dark-color);
+  box-shadow: 0rem 0rem 1rem 0.5rem yellow;
 }
