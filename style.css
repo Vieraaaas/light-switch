@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --light-color: snow;
+  --dark-colour: #131212;
+}
+
+html {
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.content {
+  height: 100vw;
+  display: flex;
+  justify-content: center;
+  background-color: var(--light-color);
+}
+
+.btn {
+  align-self: center;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+.btn-on {
+  border: 0.25rem solid var(--dark-colour);
+  color: var(--dark-colour);
+}
+
+.btn-off {
+  border: var(--light-color);
+  color: var(--light-color);
+}
