@@ -19,10 +19,12 @@ html {
   display: flex;
   justify-content: center;
   background-color: var(--light-color);
+  transition: 1s ease-in-out;
 }
 
 .content-dark {
   background-color: var(--dark-color);
+  transition: 1s ease-in-out;
 }
 
 .btn {
